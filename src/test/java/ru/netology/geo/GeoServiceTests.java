@@ -1,10 +1,12 @@
+package ru.netology.geo;
+
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import ru.netology.GeoServiceImpl;
 import ru.netology.entity.Country;
 import ru.netology.entity.Location;
-import ru.netology.geo.GeoServiceImpl;
 
 import java.util.stream.Stream;
 
